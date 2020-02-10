@@ -1,0 +1,169 @@
+.media-1200-v,
+.media-1120-v,
+.media-1040-v,
+.media-960-v,
+.media-880-v,
+.media-800-v,
+.media-720-v,
+.media-640-v,
+.media-560-v,
+.media-480-v,
+.media-400-v,
+.media-320-v
+{
+	display: none;
+}
+
+
+/*
+ *	85em
+ */
+@media (max-width: 1360px)
+{
+}
+/*
+ *	75em
+ */
+@media (max-width: 1200px)
+{
+	.media-1200-v { display: block; }
+	.media-1200-h { display: none; }
+}
+/*
+ *	70em
+ */
+@media (max-width: 1120px)
+{
+	.media-1120-v { display: block; }
+	.media-1120-h { display: none; }
+}
+/*
+ *	65em
+ */
+@media (max-width: 1040px)
+{
+	.media-1040-v { display: block; }
+	.media-1040-h { display: none; }
+}
+/*
+ *	60em
+ */
+@media (max-width: 960px)
+{
+	:root
+	{
+		--fz-4: 14px;	/* h4 */
+	}
+	.media-960-v { display: block; }
+	.media-960-h { display: none; }
+}
+/*
+ *	em
+ */
+@media (max-width: 880px)
+{
+	.media-880-v { display: block; }
+	.media-880-h { display: none; }
+
+	/*.gtc-3-alt,
+	.gtc-1-2
+	{
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.gtc-3
+	{
+		grid-template-columns: repeat(2, 1fr);
+	}*/
+}
+/*
+ *	em
+ */
+@media (max-width: 800px)
+{
+	.media-800-v { display: block; }
+	.media-800-h { display: none; }
+
+	/*.gtc-4
+	{
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.gtc-2
+	{
+		grid-template-columns: repeat(1, 1fr);
+	}*/
+}
+/*
+ *	em
+ */
+@media (max-width: 720px)
+{
+	.media-720-v { display: block; }
+	.media-720-h { display: none; }
+}
+/*
+ *	em
+ */
+@media (max-width: 640px)
+{
+	.media-640-v { display: block; }
+	.media-640-h { display: none; }
+
+	/*.gtc-3
+	{
+		grid-template-columns: repeat(1, 1fr);
+	}*/
+}
+/*
+ *	em
+ */
+@media (max-width: 560px)
+{
+	.media-560-v { display: block; }
+	.media-560-h { display: none; }
+}
+/*
+ *	em
+ */
+@media (max-width: 480px)
+{
+	:root
+	{
+		--fz-4: 12px;	/* h4 */
+	}
+	.media-480-v { display: block; }
+	.media-480-h { display: none; }
+
+
+	.policy__padding
+	{
+		padding: 0;
+	}
+
+	.policy__radius
+	{
+		border-radius: 0;
+	}
+}
+/*
+ *	em
+ */
+@media (max-width: 400px)
+{
+	.media-400-v { display: block; }
+	.media-400-h { display: none; }
+
+	/*.gtc-4
+	{
+		grid-template-columns: repeat(1, 1fr);
+	}*/
+}
+/*
+ *	em
+ */
+@media (max-width: 320px)
+{
+	.media-320-v { display: block; }
+	.media-320-h { display: none; }
+}
+

@@ -1,0 +1,152 @@
+:root
+{
+	/* color rgb values */
+	--c-b: 0,0,0;		/* black */
+	--c-g: 191,191,191;	/* grey */
+	--c-w: 255,255,255;	/* white */
+	--c-1: 255,75,75;	/* blue */
+	--c-2: 255,193,7;	/* yellow */
+	--c-3: 76,175,80;	/* green */
+	--c-4: 244,67,54;	/* red */
+	--c-5: 156,39,176;	/* magenta */
+
+	--c-g-10: 242,242,242;
+	--c-g-20: 229,229,229;
+	--c-g-30: 217,217,217;
+	--c-g-40: 204,204,204;
+	--c-g-50: 191,191,191;
+	--c-g-60: 178,178,178;
+	--c-g-70: 165,165,165;
+	--c-g-80: 153,153,153;
+	--c-g-90: 140,140,140;
+
+	/* additional color rgb values */
+	--c-b-add: 255,255,255; /* white */
+	--c-g-add: 0,0,0;       /* black */
+	--c-w-add: 0,0,0;       /* black */
+	--c-1-add: 255,255,255; /* white */
+	--c-2-add: 255,255,255; /* white */
+	--c-3-add: 255,255,255; /* white */
+	--c-4-add: 255,255,255; /* white */
+	--c-5-add: 255,255,255; /* white */
+
+	/* line-height */
+	--lh: 1.35;
+
+	/* font-family */
+	--ff-0: 'roboto'; /* default */
+	--ff-1: 'PlayfairDisplay'; /* additional */
+
+	--fz-4: 16px;		/* h4 */
+	font-size: var(--fz-4);
+	--fz-0: 1.25rem;	/* p 20px */
+	--fz-1: 3rem;		/* h1 48px */
+	--fz-2: 2.25rem;	/* h2 36px */
+	--fz-3: 1.5rem;		/* h3 24px */
+
+
+	/**
+	 *	input
+	 */
+	
+	/* font-size */
+
+	--inp-fz:	1em;							/* input font-size */
+	--chb-fz:	var(--inp-fz);					/* checkbox font-size */
+	--rad-fz:	var(--inp-fz);					/* radio font-size */
+	--btn-fz:	var(--inp-fz);					/* button font-size */
+	
+	/* width */
+
+	--inp-w:	15rem;							/* input width */
+	--btn-w:	var(--inp-w);					/* button width */
+	
+	/* padding */
+
+	--inp-p-v:	.5rem;							/* input padding top/bottom */
+	--inp-p-h:	1rem;							/* input padding left/right */
+	--btn-p-v:	var(--inp-p-v);					/* button padding top/bottom */
+	--btn-p-h:	var(--inp-p-h);					/* button padding left/right */
+
+	/* background-color */
+
+	--inp-bg:	rgb(255,255,255);				/* input background-color */
+	--chb-bg:	var(--inp-bg);					/* input checkbox background-color */
+	--rad-bg:	var(--chb-bg);					/* input radio background-color */
+	--btn-bg:	rgb(var(--c-1));						/* button background-color */
+
+	--inp-dis-bg:	rgb(var(--c-g-10));			/* disable input background-color */
+	--chb-dis-bg:	var(--chb-bg);				/* disable input checkbox background-color */
+	--rad-dis-bg:	var(--rad-bg);				/* disable input radio background-color */
+	--btn-dis-bg:	rgb(var(--c-g-20));						/* disable button background-color */
+
+	/* placeholder */
+
+	--inp-ph:	rgb(var(--c-g-80));				/* input color */
+
+	--inp-dis-ph:	rgb(var(--c-g-40));			/* disable input color */
+
+	/* color */
+
+	--inp-c:	rgb(0,0,0);						/* input color */
+	--chb-c:	rgb(var(--c-1));				/* input checkbox color */
+	--rad-c:	var(--chb-c);					/* input radio color */
+	--btn-c:	rgb(var(--c-1-add));			/* button color */
+
+	--inp-dis-c:	rgb(var(--c-g-40));			/* disable input color */
+	--chb-dis-c:	rgb(var(--c-g-40));			/* disable input checkbox color */
+	--rad-dis-c:	var(--chb-dis-c);			/* disable input radio color */
+	--btn-dis-c:	rgb(var(--c-g-50));			/* disable input color */
+
+	/* border-width */
+
+	--inp-bdw:	1px;							/* input border-width */
+	--chb-bdw:	var(--inp-bdw);					/* input checkbox border-width */
+	--rad-bdw:	var(--chb-bdw);					/* input radio border-width */
+	--btn-bdw:	0px;								/* button border-width */
+
+	/* border-color */
+
+	--inp-bdc:	rgb(var(--c-g-50));				/* input border-color */
+	--chb-bdc:	var(--inp-bdc);					/* input checkbox border-color */
+	--rad-bdc:	var(--chb-bdc);					/* input radio border-color */
+	--bth-bdc:	transparent;					/* button border-color */
+
+	--inp-dis-bdc:	rgb(var(--c-g-20));			/* disable input border-color */
+	--chb-dis-bdc:	var(--inp-dis-bdc);			/* disable input checkbox border-color */
+	--rad-dis-bdc:	var(--chb-dis-bdc);			/* disable input radio border-color */
+	--bth-dis-bdc:	var(--inp-dis-bdc);			/* disable button border-color */
+
+	/* border-radius */
+
+	--inp-bdrs:	.25rem;							/* input border-radius  */
+	--chb-bdrs:	var(--inp-bdrs);				/* input checkbox border-radius */
+	--rad-bdrs:	50%;							/* input radio border-radius */
+	--btn-bdrs:	var(--inp-bdrs);				/* button border-radius  */
+	/*--btn-bdrs: calc(var(--btn-fz) / 2 * var(--lh) + var(--btn-p-v) + var(--btn-bdw));*/				/* button border-radius  */
+	
+	/* box-shadow */
+
+	--inp-foc-bxsh-b: 2px;						/* input focus box-shadow blur */
+	--inp-foc-bxsh-s: 1px;						/* input focus box-shadow spread */
+	--inp-foc-bxsh-c: rgba(var(--c-1),0.5);		/* input focus box-shadow color */
+
+	/**
+	 *	/input
+	 */
+
+
+
+
+	/* limit */
+	--limit-maxw: 71rem;					/* content max-width */
+	--limit-p: 2rem;						/* content padding */
+
+
+	/* margin */
+	--part-bigger: 12rem;
+	--part-big:    8rem;
+	--part:        4rem;
+	--part-min:    2rem;
+
+}

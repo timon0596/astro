@@ -1,0 +1,133 @@
+body
+{
+	font-family: 'PTSans';
+
+	background-image: url('/templates/default/img/body.jpg');
+}
+
+
+
+/*
+ *	Размеры шрифта
+ */
+
+p,
+.p,
+li,
+button,
+input[type=submit],
+.button
+{
+	font-size: 20px;
+}
+
+h1,
+.h1
+{
+	font-size: 44px;
+}
+h2,
+.h2
+{
+	font-size: 28px;
+}
+h3,
+.h3
+{
+	font-size: 16px;
+}
+
+.c-1 {
+	color: #E18C44;
+}
+
+
+
+/*
+ *
+ *		ОБЩИЕ
+ *
+ */
+
+
+button,
+input[type=submit],
+.button {
+	color: rgb(225, 140, 68);
+	background-color: rgba(0,0,0,0);
+	border: solid 2px rgb(225, 140, 68);
+	border-radius: calc( 1em + 2px );
+}
+
+
+
+
+header
+{
+	width: 100%;
+	/*height: 80px;*/
+	z-index: 88888;
+	/*position: absolute;*/
+}
+header *
+{
+	z-index: 88888;
+}
+header #logo
+{
+	background-image: url('/templates/default/img/logo.svg');
+	background-size: contain;
+	width: 160px;
+	height: 100px;
+}
+
+
+header .menu .act
+{
+	color: rgb(225, 140, 68);
+	font-weight: bold;
+}
+
+
+
+
+#page
+{
+	min-height: calc( 100vh - 375px );
+}
+
+
+
+
+
+footer
+{
+	background-image: url('/templates/default/img/footer.jpg');
+	background-position: bottom;
+}
+
+/*.delimiter-g
+{
+	height: 1em;
+	background-color: #A3A2A2;
+}*/
+.delimiter-w
+{
+	height: 1px;
+	background-color: rgba(255,255,255,.5);
+}
+
+.blackout-1
+{
+	background-color: rgba(225, 140, 68, .85)
+}
+
+
+
+
+#page-index #header
+{
+	max-height: 50vh;
+	background-image: url('/templates/default/img/header.jpg');
+	background-position: center 25%;
+}

@@ -1,0 +1,45 @@
+header {
+	background-color: rgba(127,127,127,.25);
+	padding: 1em 2em;
+}
+footer {
+	background-color: rgba(0,127,0,.2);
+	padding: 1em;
+}
+
+#sidebar {
+	padding: 1em;
+	width: calc( 208px - 2em );
+	/*background-color: rgba(127,127,127,.1);*/
+}
+#sidebar ul {
+	list-style: none;
+	padding: 0 1em;
+	margin: 0;
+}
+#page-content {
+	padding: 1em;
+	width: calc( 100% - 208px - 2em );
+}
+
+
+@media (max-width: 960px)
+{
+	/*table
+	{
+		display: block;
+		overflow-x: auto;
+	}
+	tbody, thead
+	{
+		display: block;
+	}*/
+}
+
+
+button,
+.btn,
+[type=submit]
+{
+	width: auto;
+}

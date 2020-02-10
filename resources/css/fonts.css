@@ -1,0 +1,57 @@
+@font-face{
+font-family: 'OpenSans';
+src: url('/resources/fonts/OpenSans/OpenSans-Bold.ttf') format('truetype');
+font-weight: bold;
+font-style: normal;
+}
+@font-face{
+font-family: 'OpenSans';
+src: url('/resources/fonts/OpenSans/OpenSans-Regular.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face{
+font-family: 'Akrobat';
+src: url('/resources/fonts/Akrobat/Akrobat-Bold.otf') format('truetype');
+font-weight: bold;
+font-style: normal;
+}
+@font-face{
+font-family: 'Acrobat';
+src: url('/resources/fonts/Akrobat/Akrobat-Light.otf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face{
+font-family: 'PlayfairDisplay';
+src: url('/resources/fonts/PlayfairDisplay/PlayfairDisplay-Italic.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+@font-face{
+font-family: 'PlayfairDisplay';
+src: url('/resources/fonts/PlayfairDisplay/PlayfairDisplaySC-Italic.ttf') format('truetype');
+font-weight: bold;
+font-style: normal;
+}
+
+@font-face{
+font-family: 'roboto';
+src: url('/resources/fonts/roboto/Roboto-Bold.ttf') format('truetype');
+font-weight: bold;
+font-style: normal;
+}
+@font-face{
+font-family: 'roboto';
+src: url('/resources/fonts/roboto/Roboto-BoldItalic.ttf') format('truetype');
+font-weight: bold;
+font-style: italic;
+}
+@font-face{
+font-family: 'roboto';
+src: url('/resources/fonts/roboto/Roboto-Regular.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
